@@ -1,0 +1,39 @@
+
+
+stupyd - indent-like-python preprocessor - by Gautier Portet <kassoulet gmail com>
+
+
+Stu-what ?
+==========
+
+Stupyd will transform a special, simplified C/C++ code to a valid C/C++ code.
+It's still 100% C/C++, only the appearance changes. 
+
+
+Why ?
+=====
+Because "beautiful is better than ugly".
+
+
+Example code
+============
+#include <stdio.h>
+
+int main():
+    for int i=0; i<10; i++:
+        printf("Hello World.\n")
+
+
+Dependencies
+============
+Stupyd is coded in python3.
+
+
+Limitations
+===========
+The following C/C++ features are not supported for now:
+ - /**/ comments
+ - enums
+
+Code is ugly and slow, I don't care.
+

@@ -1,0 +1,106 @@
+#include <string>
+#include "stdio.h"
+
+using namespace std
+int testInt
+
+#define plop() \
+    "pl" \
+    "op"
+
+struct Point:
+	int x
+	
+	int y
+
+//enum Colors:
+//    RED, GREEN, 
+//    BLUE = 5,
+//    YELLOW
+//paint_color
+
+Point *point
+
+#pragma (plop)
+
+extern int MusicGetPosition(void);
+
+void print(int obj):
+	int infologLength = 0
+	char infoLog[1024]
+
+	if obj:
+		printf("%d", obj)
+	else:
+		printf("%d", obj)
+	
+	while obj:
+		printf("%d", obj)
+	
+	printf(__FILE__ ": %d: Hello "
+	"world\n", __LINE__)
+	
+	int i,j,k
+	for (i=0; i<10; i++):
+		printf("%d", i)
+
+	for i=0; i<10; i++:
+		printf("%d", i)
+	
+	for (i=0; i<10; i++):
+		for (j=0; j<10; j++):
+			for (k=0; k<10; k++):
+				printf("%d", i)
+
+	for i=0; i<10; i++:
+		for j=0; j<10; j++:
+			for k=0; k<10; k++:
+				printf("%d", i)
+	
+	do:
+		printf("never")
+	while(0)
+	
+	switch i:
+		case 1:
+			printf("1")
+		case 11:
+			printf("11")
+		    
+		default:
+		    printf("default")
+
+class Texture:
+
+public:
+
+	Texture(const char* filename=0):
+		if (filename):
+			load(filename)
+
+	~Texture():
+		printf("destructor \" // \" \"")// comment
+
+	private: 
+	void load(const char* filename=0): // hello
+		printf("loading // %s // %s", filename, " //") // yo
+
+		return        
+
+int main():
+	pass
+	printf("Hello World.\n")
+
+	int i
+
+	for (i=0; 
+			i<10; i++):
+		printf("%d", i)
+
+	for i=0; i<10; i++:
+		printf("%d", i)
+
+	for (i=0; i<10; i++):
+		printf("%d", i)
+
+

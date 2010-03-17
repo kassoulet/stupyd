@@ -1,0 +1,12 @@
+// /* Fragment shader */
+
+uniform sampler2D tex0
+
+void main():
+    float time = waveTime
+
+    vec2 resolution = vec2(256,64)
+    vec2 uv = -1.0 + 2.0 * gl_FragCoord.xy / resolution.xy
+
+    gl_FragColor = texture2D(tex0, uv).rgb
+
